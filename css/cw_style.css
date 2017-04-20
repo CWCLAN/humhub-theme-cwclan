@@ -1,6 +1,14 @@
 /**
  * Define or overwrite your theme selectors within this file.
 **/
+:target:before {
+  content: "";
+  display: block;
+  height: 100px;
+  /* fixed header height*/
+  margin: -100px 0 0;
+  /* negative fixed header height */
+}
 body {
   padding-top: 0;
   background: url("../img/cw/bgr.jpg");
