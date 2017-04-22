@@ -170,11 +170,13 @@ ul#filter li > a:hover {
   .notifications {
     float: left !important;
   }
-  .notifications .dropdown-menu {
+  .notifications .dropdown-menu,
+  .notifications #dropdown-messages {
     width: 250px !important;
     margin-left: 0px !important;
   }
-  .notifications .dropdown-menu .arrow {
+  .notifications .dropdown-menu .arrow,
+  .notifications #dropdown-messages .arrow {
     margin-left: -117px !important;
   }
 }
