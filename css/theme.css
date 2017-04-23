@@ -3526,9 +3526,6 @@ ul.tag_input li img {
 /**
  * Define your mixins within this file.
 **/
-/**
- * Define or overwrite your theme selectors within this file.
-**/
 :target:before {
   content: "";
   display: block;
@@ -3542,9 +3539,10 @@ body {
   background: url("../img/cw/bgr.jpg");
 }
 #topbar-first .container {
-  background-image: url("../img/cw/cw_logo.png");
+  background-image: url("../img/cw/cw_logo_200.png");
   background-repeat: no-repeat;
   background-position: 1%;
+  background-size: contain;
 }
 #topbar-first .caret {
   border-top-color: #fff;

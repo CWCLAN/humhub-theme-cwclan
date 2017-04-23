@@ -1,5 +1,5 @@
-<link href="<?= $this->theme->getBaseUrl(); ?>/css/theme.css" rel="stylesheet">
-<link href="<?= $this->theme->getBaseUrl(); ?>/font/open_sans/open-sans.css" rel="stylesheet">
+<link href="<?= $this->theme->getBaseUrl(); ?>/css/theme.min.css" rel="stylesheet">
+<link href="<?= $this->theme->getBaseUrl(); ?>/font/open_sans/open-sans.min.css" rel="stylesheet">
 
 <!-- start: Favicon and Touch Icons -->
 <link rel="apple-touch-icon" sizes="60x60" href="<?= $this->theme->getBaseUrl(); ?>/ico/apple-touch-icon-60x60-precomposed.png">
