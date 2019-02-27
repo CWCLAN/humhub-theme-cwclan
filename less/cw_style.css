@@ -77,14 +77,13 @@ ul#filter,
   -webkit-box-shadow: 0 0 6px #444;
   -moz-box-shadow: 0 0 6px #444;
 }
+ul#filter,
 .wall-stream-filter-root {
-  border-radius: 4px;
-}
-ul#filter {
   background: #fff;
   border-radius: 4px;
 }
-ul#filter li > a:hover {
+ul#filter li > a:hover,
+.wall-stream-filter-root li > a:hover {
   border-radius: 4px;
 }
 .wall-entry .panel .nav-pills .dropdown .dropdown-toggle {
