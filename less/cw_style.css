@@ -78,8 +78,7 @@ ul#filter,
   -moz-box-shadow: 0 0 6px #444;
 }
 .wall-stream-filter-root {
-  border: solid 1px #444;
-  border-bottom: dashed 1px #444;
+  border-radius: 4px;
 }
 ul#filter {
   background: #fff;
