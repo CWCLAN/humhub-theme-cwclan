@@ -48,12 +48,10 @@ body {
   background: #ef9849;
   color: #fff !important;
 }
-.panel.panel-default,
-#wall-stream-filter-nav {
+.panel.panel-default {
   border: solid 1px #444;
 }
-.panel.panel-default .panel-heading,
-#wall-stream-filter-nav .panel-heading {
+.panel.panel-default .panel-heading {
   font-size: 16px;
   font-weight: 300;
   color: #fff;
@@ -64,22 +62,24 @@ body {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
-.panel.panel-default .panel-heading .btn,
-#wall-stream-filter-nav .panel-heading .btn {
+.panel.panel-default .panel-heading .btn {
   font-size: 14px;
   font-weight: 600;
   padding: 5px 15px;
 }
-.panel.panel-default hr,
-#wall-stream-filter-nav hr {
+.panel.panel-default hr {
   margin-top: 0px;
 }
 .panel,
 ul#filter,
-.wallFilterPanel {
+.wall-stream-filter-root {
   box-shadow: 0 0 6px #444;
   -webkit-box-shadow: 0 0 6px #444;
   -moz-box-shadow: 0 0 6px #444;
+}
+.wall-stream-filter-root {
+  border: solid 1px #444;
+  border-bottom: dashed 1px #444;
 }
 ul#filter {
   background: #fff;
