@@ -1,4 +1,4 @@
-
+// out: false
 // anchor fix for header height
 :target:before {
   content:"";
@@ -10,6 +10,12 @@
 body {
     padding-top: 0;
     background: url("../img/cw/bgr.jpg");
+}
+
+
+// Placeholder text for empty content
+.placeholder {
+    padding: 0 !important;
 }
 
 #topbar-first {
@@ -122,6 +128,10 @@ ul#filter, .wall-stream-filter-root {
     }
 }
 
+.wall-entry .wall-entry-body {
+    padding-left: 0 !important;
+}
+
 .dropdown-menu li a:hover, .dropdown-menu li a:visited, .dropdown-menu li a:hover, .dropdown-menu li a:focus {
     background-color: #e8e8e8;
 }
@@ -151,7 +161,10 @@ ul#filter, .wall-stream-filter-root {
     top: 8px;
     .dropdown .dropdown-toggle {
         background-color: #fff;
-        color: #444;       
+        color: #444; 
+        i {
+            color: #fff;           
+        }      
     }
     .dropdown.open .dropdown-toggle, .dropdown.open .dropdown-toggle:hover {
         background-color: #fff;
@@ -164,7 +177,15 @@ ul#filter, .wall-stream-filter-root {
     }
 }
 
-
+.layout-sidebar-container {
+    .nav-pills.preferences {
+        .dropdown .dropdown-toggle {
+            i {
+                color: @info;           
+            }      
+        }
+    } 
+}
 
 #footer {
     background: #444;        
@@ -219,4 +240,3 @@ ul#filter, .wall-stream-filter-root {
         color: #444 !important;
     }
 }
-
